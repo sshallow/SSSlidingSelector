@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    button.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning

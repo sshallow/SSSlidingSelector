@@ -60,12 +60,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BCEADA1C6FBAC10C87C0628 /* SSSlidingSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSSlidingSelector.podspec; path = ../SSSlidingSelector.podspec; sourceTree = "<group>"; };
-		7D2C57F6192C2FF1ECF4615C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7BCEADA1C6FBAC10C87C0628 /* SSSlidingSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSSlidingSelector.podspec; path = ../SSSlidingSelector.podspec; sourceTree = "<group>"; };
+		7D2C57F6192C2FF1ECF4615C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99F45E0325BB9BA8ACC6A227 /* Pods-SSSlidingSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSlidingSelector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSSlidingSelector_Tests/Pods-SSSlidingSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B486E6111A9725B24743CC9 /* Pods-SSSlidingSelector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSlidingSelector_Example.release.xcconfig"; path = "Target Support Files/Pods-SSSlidingSelector_Example/Pods-SSSlidingSelector_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F304CCB3A22836B439089B1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F304CCB3A22836B439089B1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3392BB9B06D8D850939FF63 /* Pods_SSSlidingSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSlidingSelector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				99F45E0325BB9BA8ACC6A227 /* Pods-SSSlidingSelector_Tests.debug.xcconfig */,
 				5DE667E9AA92F7DA6EFC1C99 /* Pods-SSSlidingSelector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sshallow;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DRG4MCP4V7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,11 +497,12 @@
 			baseConfigurationReference = 373DCFF0464063FCFBDCA1CB /* Pods-SSSlidingSelector_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRG4MCP4V7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSSlidingSelector/SSSlidingSelector-Prefix.pch";
 				INFOPLIST_FILE = "SSSlidingSelector/SSSlidingSelector-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.SSSlidingSelector-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +514,12 @@
 			baseConfigurationReference = 9B486E6111A9725B24743CC9 /* Pods-SSSlidingSelector_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRG4MCP4V7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSSlidingSelector/SSSlidingSelector-Prefix.pch";
 				INFOPLIST_FILE = "SSSlidingSelector/SSSlidingSelector-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.SSSlidingSelector-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

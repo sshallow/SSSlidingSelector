@@ -1,0 +1,6 @@
+framework module SSSlidingSelector {
+  umbrella header "SSSlidingSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}

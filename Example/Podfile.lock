@@ -1,0 +1,16 @@
+PODS:
+  - SSSlidingSelector (0.1.0)
+
+DEPENDENCIES:
+  - SSSlidingSelector (from `../`)
+
+EXTERNAL SOURCES:
+  SSSlidingSelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSSlidingSelector: b328cb5460186bfd061b369aa7de51c3bff2c6bd
+
+PODFILE CHECKSUM: 424ec035ef7da676f17796f06521f875e549a8d2
+
+COCOAPODS: 1.7.5
